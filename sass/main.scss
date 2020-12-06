@@ -1,0 +1,14 @@
+@import "components/animation";
+@import "components/web";
+
+@import "components/lightbox";
+
+.button-wrapper {
+    display: inline-block;
+    margin: 0 12px;
+    cursor: pointer;
+
+    img { 
+        width: 150px; max-width: 100%; 
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Test</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>My SUPER AWESOME portfolio gallery</h1>
+
+    <main id="app">
+        <buttoncomponent v-for="item in mediaCollections" :item="item" :key="item.id" @setmediatype="setComponent"></buttoncomponent>
+        <lightbox :item="currentItem" :mediatype="mediaType"></lightbox>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src='js/main.js' type='module'></script>
+ 
+</body>
+
+
+</html>
