@@ -1,0 +1,17 @@
+.lightbox {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: #B3B2B2;
+    padding: 40px;
+
+    span {
+        cursor: pointer;
+    }
+}
+
+.show-lightbox {
+    display: block;
+}
